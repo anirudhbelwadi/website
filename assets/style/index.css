@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.my_head_section{
+    height: 100vh;
+    background: url(../img/man-holding-pen-in-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav_links{
+    font-weight: 600;
+    font-size: 110%;
+    color: #221983 !important;
+}
+.nav_register{
+    background-color: #221983 !important;
+    color: white !important;
+    border-radius: 8px;
+}
+.nav_register:hover{
+    color: #FF931E!important;
+    background-color: #181163 !important;
+}
+html,body,.full-height { height: 100%; }
+.height-90 { height:calc(100% - 50px); }
+.doborder { border: 1px solid; border-color: #ddd; border-radius: 4px; }
+.controlsdiv { display: table; width: 100%; }
+
+.internxpo_head{
+    width: fit-content;
+}
+.internxpo_head h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    font-weight: bolder;
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #181163; }
+  }
+  .register_button{
+      width: 200px;
+      height: 60px;
+      background: transparent;
+      border: 1.4px solid #181163;
+      color: #181163;
+      font-weight: bold;
+  }
+  .register_button:hover{
+      color: #FF931E;
+      background: #181163;
+      transition: 0.3s;
+  }
+  .head_team{
+      font-size: 110%;
+      font-weight: 500;
+  }
