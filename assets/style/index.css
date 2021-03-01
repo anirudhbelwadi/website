@@ -68,6 +68,15 @@
       transition: 0.3s;
       cursor: pointer;
   }
+  .submit_button{
+      background-color: #FF931E !important;
+      border: none;
+  }
+  .submit_button:hover{
+    background-color: #f38b1c !important;
+    color: #221983;
+    transition: 0.5s;
+}
   .head_team{
       font-size: 110%;
       font-weight: 500;
