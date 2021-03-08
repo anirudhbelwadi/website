@@ -40,18 +40,18 @@
     animation: 
       typing 1.5s steps(40, end),
       blink-caret .75s step-end infinite;
-  }
-  /* Typing effect */
-  @keyframes typing {
+}
+/* Typing effect */
+@keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #181163; }
-  }
-  .register_button{
+}
+.register_button{
       width: 200px;
       height: 60px;
       background: transparent;
@@ -61,51 +61,51 @@
       text-decoration: none;
       text-align: center;
       padding-top: 15px;
-  }
-  .register_button:hover{
+}
+.register_button:hover{
       color: #FF931E;
       background: #181163;
       transition: 0.3s;
       cursor: pointer;
-  }
-  .submit_button{
-      background-color: #FF931E !important;
-      border: none;
-  }
-  .submit_button:hover{
+}
+.submit_button{
+    background-color: #FF931E !important;
+    border: none;
+}
+.submit_button:hover{
     background-color: #f38b1c !important;
     color: #221983;
     transition: 0.5s;
 }
-  .head_team{
-      font-size: 110%;
-      font-weight: 500;
-  }
-  .countdown{
-      background: url(../img/timerback.jpg);
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: top;
-  }
-  .foot_text{
-      font-size: 80%;
-      margin: 3px 0px;
-  }
-  .foot_team{
-      font-size: 80%;
-  }
-  .foot_socialmedia{
+.head_team{
+    font-size: 110%;
+    font-weight: 500;
+}
+.countdown{
+    background: url(../img/timerback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.foot_text{
+    font-size: 80%;
+    margin: 3px 0px;
+}
+.foot_team{
+    font-size: 80%;
+}
+.foot_socialmedia{
+color: rgb(85, 85, 85);
+}
+.foot_socialmedia:hover{
+    color: black;
+    transition: 0.4s;
+}
+.foot_mail{
+    text-decoration: none;
     color: rgb(85, 85, 85);
-  }
-  .foot_socialmedia:hover{
-      color: black;
-      transition: 0.4s;
-  }
-  .foot_mail{
-      text-decoration: none;
-      color: rgb(85, 85, 85);
-  }
-  .foot_mail:hover{
+}
+.foot_mail:hover{
     color: black;
     transition: 0.4s;
 }
