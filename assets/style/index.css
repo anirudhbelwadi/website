@@ -132,3 +132,28 @@ color: rgb(85, 85, 85);
     text-decoration: none;
     color: rgb(85, 85, 85);
 }
+
+.company_name{
+    text-decoration: none;
+    color: #221983;
+}
+.company_name:hover{
+    color: #f38b1c;
+    transition: 0.3s;
+}
+.company_logo{
+    width: 80%;
+}
+.company_roles{
+    list-style: none;
+}
+.company_apply{
+    background-color: #221983 !important;
+    color: white !important;
+    border-radius: 8px;
+    width: fit-content;
+}
+.company_apply:hover{
+    color: #FF931E!important;
+    background-color: #181163 !important;
+}
