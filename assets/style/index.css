@@ -18,6 +18,9 @@
     font-size: 110%;
     color: #221983 !important;
 }
+.nav_links:hover{
+    color: #FF931E!important;
+}
 .nav_register{
     background-color: #221983 !important;
     color: white !important;
