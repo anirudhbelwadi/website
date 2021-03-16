@@ -60,100 +60,9 @@
             </div>
         </div>
     </nav>
-    <main id="RegistrationForm" class="pt-5 pb-4 container shadow rounded mt-5">
-        <h1 class="text-center mt-3"><b>Register</b></h1>
-        <form class="p-5" id="registrationform" name="registrationform">
-            <div class="form-group">
-                <label for="full_name" style="color: #181163;"><b>Full Name</b></label>
-                <input type="text" class="form-control" id="full_name" name="full_name" placeholder="Enter Full Name" required />
-            </div>
-            <br>
-            <div class="form-group">
-                <label for="email" style="color: #181163;"><b>Email address</b></label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required />
-            </div>
-            <br>
-            <label for="yearSelection" style="color: #181163;"><b>Select Year</b></label><br>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="year" id="feYear" value="FE" required />
-                <label class="form-check-label" for="feYear">
-                    First Year - FE
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="year" id="seYear" value="SE" />
-                <label class="form-check-label" for="seYear">
-                    Second Year - SE
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="year" id="teYear" value="TE" />
-                <label class="form-check-label" for="teYear">
-                    Third Year - TE
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="year" id="beYear" value="BE" />
-                <label class="form-check-label" for="beYear">
-                    Final Year - BE
-                </label>
-            </div>
-            <br>
-            <div class="form-group">
-                <label for="domainSelection" style="color: #181163;"><b>Select Domain(s)</b></label><br>
-                <div class="row">
-                    <div class="col-lg-6 my-2">
-                        <p class="mb-2">Technical</p>
-                        <input type="checkbox" class="form-check-input" id="3dPrinting" value="yes" name="3dPrinting" />
-                        <label class="form-check-label" for="3dPrinting">3D Printing</label><br>
-                        <input type="checkbox" class="form-check-input" id="appDevelopment" value="yes" name="appDevelopment" />
-                        <label class="form-check-label" for="appDevelopment">App Development</label><br>
-                        <input type="checkbox" class="form-check-input" id="blockchain" value="yes" name="blockchain" />
-                        <label class="form-check-label" for="blockchain">Blockchain</label><br>
-                        <input type="checkbox" class="form-check-input" id="CAD/CAM/CAE" value="yes" name="CAD/CAM/CAE" />
-                        <label class="form-check-label" for="CAD/CAM/CAE">CAD/CAM/CAE</label><br>
-                        <input type="checkbox" class="form-check-input" id="dataAnalysis" value="yes" name="dataAnalysis" />
-                        <label class="form-check-label" for="dataAnalysis">Data Analysis</label><br>
-                        <input type="checkbox" class="form-check-input" id="dataScience" value="yes" name="dataScience" />
-                        <label class="form-check-label" for="dataScience">Data Science</label><br>
-                        <input type="checkbox" class="form-check-input" id="electronics" value="yes" name="electronics" />
-                        <label class="form-check-label" for="electronics">Electronics</label><br>
-                        <input type="checkbox" class="form-check-input" id="fullStackDevelopment" value="yes" name="fullStackDevelopment" />
-                        <label class="form-check-label" for="fullStackDevelopment">Full Stack Development</label><br>
-                        <input type="checkbox" class="form-check-input" id="industryEngineering" value="yes" name="industryEngineering" />
-                        <label class="form-check-label" for="industryEngineering">Industry Engineering</label><br>
-                        <input type="checkbox" class="form-check-input" id="iot" value="yes" name="iot" />
-                        <label class="form-check-label" for="iot">IoT</label><br>
-                        <input type="checkbox" class="form-check-input" id="machineLearning" value="yes" name="machineLearning" />
-                        <label class="form-check-label" for="machineLearning">Machine Learning</label><br>
-                        <input type="checkbox" class="form-check-input" id="telecommunication" value="yes" name="telecommunication" />
-                        <label class="form-check-label" for="telecommunication">Telecommunication</label><br>
-                        <input type="checkbox" class="form-check-input" id="warehouseManagement" value="yes" name="warehouseManagement" />
-                        <label class="form-check-label" for="warehouseManagement">Warehouse Management</label>
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="mb-2">Non Technical</p>
-                        <input type="checkbox" class="form-check-input" id="businessDevelopment" value="yes" name="businessDevelopment" />
-                        <label class="form-check-label" for="businessDevelopment">Business Development</label><br>
-                        <input type="checkbox" class="form-check-input" id="Content Writing" value="yes" name="Content Writing" />
-                        <label class="form-check-label" for="Content Writing">Content Writing</label><br>
-                        <input type="checkbox" class="form-check-input" id="digitalMarketing" value="yes" name="digitalMarketing" />
-                        <label class="form-check-label" for="digitalMarketing">Digital Marketing</label><br>
-                        <input type="checkbox" class="form-check-input" id="graphicDesign" value="yes" name="graphicDesign" />
-                        <label class="form-check-label" for="graphicDesign">Graphic Design</label><br>
-                        <input type="checkbox" class="form-check-input" id="marketing" value="yes" name="marketing" />
-                        <label class="form-check-label" for="marketing">Marketing</label><br>
-                        <input type="checkbox" class="form-check-input" id="sales" value="yes" name="sales" />
-                        <label class="form-check-label" for="sales">Sales</label><br>                        
-                        <input type="checkbox" class="form-check-input" id="supplyChainManagement" value="yes" name="supplyChainManagement" />
-                        <label class="form-check-label" for="supplyChainManagement">Supply Chain Management</label>
-                    </div>
-                </div>   
-            </div>
-            <br>
-            <button type="submit" class="btn btn-primary submit_button">Submit</button>
-        </form>
-    </main>
+    <section class="text-center py-5 countdown">
+        <p class="display-4 my-3" id="timer"></p>
+    </section>
     <div id="contactForm" class="pt-5 pb-4 container shadow rounded mb-5 mt-5" style="background-color: #e4e4e4;">
         <h1 class="text-center mt-3"><b>Contact Us</b></h1>
         <form class="p-5" name="contactform" id="contactform">
@@ -175,9 +84,6 @@
             <button type="submit" class="btn btn-primary submit_button">Submit</button>
         </form>
     </div>
-    <section class="text-center py-5 countdown">
-        <p class="display-4 my-3" id="timer"></p>
-    </section>
     <footer class="pt-5 pb-2" style="background-color: #e4e4e4;">
         <div class="container">
             <div class="row">
