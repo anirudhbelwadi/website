@@ -160,3 +160,13 @@ color: rgb(85, 85, 85);
     color: #FF931E!important;
     background-color: #181163 !important;
 }
+
+.domain_company_name{
+    color: #221983 !important;
+    text-decoration: none;
+}
+.domain_company_name:hover{
+    color: #f38b1c !important;
+    transition: 0.2s;
+    cursor: pointer;
+}
